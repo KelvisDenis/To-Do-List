@@ -1,0 +1,65 @@
+# Arquivos gerados pelo Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# Diretórios de build
+bin/
+obj/
+out/
+
+# Configurações de publicação
+.publish/
+
+# Dependências geradas pelo NuGet
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs, relatorios e arquivos temporários
+*.log
+*.tlog
+*.vscode/
+*.temp
+*.pid
+*.sdf
+*.sqlite
+*.sqlite3
+*.db
+
+# Configurações locais
+appsettings.Development.json
+appsettings.*.json
+
+# Arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.Trashes
+
+# Diretórios do sistema e do ambiente
+node_modules/
+wwwroot/lib/
+.env
+.env.*
+
+# Arquivos do Rider/JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos gerados pelo Docker
+docker-compose.override.yml
+.dockerignore
+
+# Arquivos gerados por testes
+TestResults/
+*.trx
+*.coverage
+coverage.opencover.xml
